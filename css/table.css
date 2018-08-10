@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'amble';
+    src:url(../fonts/Amble-Regular-webfont.ttf) format('truetype');
+}
+
+	/*TABLES*/
+	
+	
+	#mainbar table{
+		margin:0 auto;
+		border-bottom:0px;
+		border-top:0px;
+		border-collapse:collapse;
+		}
+	#mainbar tr{
+		padding:2px;
+		width:100%;
+		color:black;
+		font-family:amble;
+		font-size:12px;
+		}
+	
+	
+	tr:nth-child(odd){
+		background:rgba(243, 243, 243, 0.89);
+		}
+	
+	tr:nth-child(even){
+		background:white;
+		}
+		
+	#mainbar tr td{
+		font-family:amble;
+		border-right:1px solid white;
+		margin:1px;
+		}
+	th{
+		border-right:1px solid white;
+		color:white; 
+		font-family:Trebuchet MS;
+		background:-webkit-linear-gradient(rgba(0, 101, 101, 0.8),rgba(0, 175, 175, 0.8));
+		background:-moz-linear-gradient(rgba(0, 101, 101, 0.8),rgba(0, 175, 175, 0.8));
+		background:-o-linear-gradient(rgba(0, 101, 101, 0.8),rgba(0, 175, 175, 0.8));
+		}
+
+	
+	/*TABLES*/

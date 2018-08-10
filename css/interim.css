@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+#form_cont{
+	margin:5% 0% 0% 0%;
+	background:white;
+	width:100%;
+	height:auto;
+	overflow-x:hidden;
+	overflow-y:auto;
+	overflow-style:marquee-line;
+	max-height:500px;
+	}
+#form_cont form{
+	margin:2% 20% 1% 20%;
+	}
+
+.wrap #form_cont #left {
+	clear: left;
+	float: left;
+	height: auto;
+	width: 39%;
+	position: relative;
+	padding: 4px;
+	padding-left: 10px;
+}
+.wrap #form_cont #right {
+	clear: right;
+	float: right;
+	height: auto;
+	width: 50%;
+	position: relative;
+	border-left: 2px solid lightgrey;
+	margin: 4px;
+	padding: 4px;
+	max-height: 400px;
+	overflow-style: marquee-line;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.wrap #form_cont #right h4 {
+	font-family: amble;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	text-align: center;
+	word-spacing: normal;
+	white-space: nowrap;
+	display: block;
+	clear: none;
+	float: none;
+	height: auto;
+	width: 100%;
+	background:-webkit-linear-gradient(rgba(0, 128, 157, 0.93),rgba(0, 189, 246, 0.93));
+	background:-moz-linear-gradient(rgba(0, 128, 157, 0.93),rgba(0, 189, 246, 0.93));
+	background:-o-linear-gradient(rgba(0, 128, 157, 0.93),rgba(0, 189, 246, 0.93));
+	color:white;
+	border-radius:4px;
+	padding:5px;
+	margin-top: -5px;
+	position: relative;
+}
+.wrap #form_cont ul >li#bks {
+	font-family: amble;
+	font-size:12px;
+	background-color: transparent;
+	text-indent: 1px;
+	word-spacing: 1px;
+	white-space: normal;
+	display: block;
+	list-style-type: none;
+	position: relative;
+	visibility: visible;
+	height: auto;
+	width: auto;
+	margin:0px;
+	max-width:140px;
+	
+}
+.wrap #form_cont ul{
+	padding:1px;
+	margin-top:1%;
+	margin-bottom:1%;
+	max-height:150px;
+	margin-left:1.8%;
+	margin-right:1.8%;
+
+	}
